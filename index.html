@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suffern Baseball</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/IMG_5437-removebg-preview.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">TEAM</a></li>
+                <li><a href="">MEDIA</a></li>
+                <li><a href="">ALUMNI</a></li>
+                <li><a href="">APPAREL</a></li>
+                <li><a href="">SPONSORS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Suffern Mounties Baseball</h1>
+        <p>Official Suffern Mounties Website for all of your inquiries,
+        media, and contacting info. <br> Welcome to the community.
+        </p>
+        <a href="" class="hero-btn">Learn More</a>
+    </div>
+
+</section>
+
+<!-----Team------>
+
+<section class="Team">
+    <h1>Our Team</h1>
+    <p>Come meet our team, not only the players, but the coaches that make it possible.</p>
+
+    <div class="row">
+        <div class="team-col">
+            <h3>Head Coach</h3>
+            <p>Mike Cronin Mike Cronin is the dedicated head of the Suffern baseball team. With his expertise 
+            and passion for the sport, he has transformed the team into a formidable force. Coach Cronin's 
+            leadership inspires his players to excel, fostering both skill development and a strong team dynamic 
+            with the help of his assistants, Wayne Poppe and JR Randazzo. His commitment has made him an invaluable 
+            asset to the Suffern baseball team.</p>
+        </div>
+        <div class="team-col">
+            <h3>Varsity</h3>
+            <p>The Suffern High School varsity team is renowned for their exceptional performance and dedication.
+             With skilled athletes and experienced coaches, they consistently demonstrate outstanding skill, 
+             teamwork, and determination. As role models for aspiring athletes, their achievements make them a 
+             source of pride for the Suffern community.</p>
+        </div>
+        <div class="team-col">
+            <h3>Junior Varsity</h3>
+            <p>Led by Head Coach Nick Kulbaba and assisted by Chris Michie and Artie Connolly, the Suffern High School
+            junior varsity (JV) team showcases dedication, teamwork, and continuous improvement. Under their guidance,
+            these skilled athletes excel and lay the foundation for future success.</p>
+        </div>
+    </div>
+
+</section>
+
+<!----apparel---->
+
+<section class="Apparel">
+    <h1>Our Apparel</h1>
+    <p>Discover Suffern baseball's apparel, a symbol of pride and unity. With high-quality designs, our clothing reflects the team's unwavering commitment to the sport.</p>
+</section>
+
+<!------Javascript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+</body>
+</html>
